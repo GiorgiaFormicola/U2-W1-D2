@@ -16,6 +16,38 @@ hr {
   display: none;
 } /* rimuove l'elemento */
 
+.side-button {
+  background-color: #ffffff94;
+  border: 2px solid white;
+  font-size: 2rem;
+  position: fixed;
+  right: -1rem;
+  z-index: 3;
+  border-radius: 0.8rem;
+}
+
+.side-button i {
+  padding: 1rem;
+}
+
+.side-button:nth-of-type(1),
+.side-button:nth-of-type(2) {
+  color: #2d5fbf;
+}
+
+.side-button:nth-of-type(1) {
+  bottom: 11rem;
+}
+
+.side-button:nth-of-type(2) {
+  bottom: 6rem;
+}
+
+.side-button:nth-of-type(3) {
+  color: #f7555d;
+  bottom: 1rem;
+}
+
 /* HEADER */
 header {
   background: rgb(0, 160, 198);
