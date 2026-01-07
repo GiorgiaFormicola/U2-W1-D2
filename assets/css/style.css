@@ -124,6 +124,20 @@ h1 {
   margin-bottom: 0.7em;
 }
 
+h1 span {
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+h1 span img {
+  opacity: 0.6;
+  width: 375px;
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  z-index: -1;
+}
 p,
 address,
 ul,
@@ -155,6 +169,12 @@ h1 + p {
     font-size: 3rem;
   }
 
+  h1 span img {
+    width: 432px;
+    top: 55px;
+    z-index: -1;
+  }
+
   p,
   ul,
   ol {
@@ -170,6 +190,12 @@ h1 + p {
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 3.6rem;
+  }
+
+  h1 span img {
+    width: 520px;
+    top: 65px;
+    z-index: -1;
   }
 }
 
