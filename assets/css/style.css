@@ -35,17 +35,29 @@ hr {
   color: #2d5fbf;
 }
 
-.side-button:nth-of-type(1) {
+/* .side-button:nth-of-type(1) {
   bottom: 11rem;
 }
 
 .side-button:nth-of-type(2) {
   bottom: 6rem;
-}
+} */
 
 .side-button:nth-of-type(3) {
   color: #f7555d;
   bottom: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+  .side-button:nth-of-type(1) {
+    bottom: auto;
+    top: 1rem;
+  }
+
+  .side-button:nth-of-type(2) {
+    bottom: auto;
+    top: 6rem;
+  }
 }
 
 /* HEADER */
