@@ -102,7 +102,7 @@ main {
 
 section {
   background-color: #e3e3e3;
-  padding: 1.5em 1em;
+  padding: 4em 1em;
   margin-bottom: 2em;
   position: relative;
 }
@@ -110,11 +110,16 @@ section {
 section h2 {
   text-align: center;
   color: #333;
-  font-size: 1.4rem;
+  font-size: 2rem;
   margin-bottom: 1.7rem;
   font-weight: bold;
   background-color: #a3a3a3;
   padding: 0px 1em;
+  text-transform: uppercase;
+  position: absolute;
+  box-shadow: 2px 2px 2px -1px black;
+  top: -20px;
+  left: 20px;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -208,6 +213,11 @@ h1 + p {
   }
   section {
     border-radius: 20px;
+  }
+
+  section,
+  iframe {
+    margin-top: 40px;
   }
 }
 
@@ -315,7 +325,7 @@ button {
 @media screen and (min-width: 500px) {
   input {
     display: inline-block;
-    width: 70%;
+    width: 45%;
   }
 }
 @media screen and (min-width: 700px) {
